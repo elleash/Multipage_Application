@@ -26,14 +26,14 @@ class MainActivity : AppCompatActivity() {
         saveBtn = findViewById(R.id.saveBtn)
         editText = findViewById(R.id.userEntry)
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-
+// saved the user input in shared preference
         saveBtn.setOnClickListener {
             val inputText = editText.text.toString()
             val editor = sharedPreferences.edit()
             editor.putString("text", inputText)
             editor.apply()
         }
-
+// button to move to the mainview
         beginBtn.setOnClickListener {
             val intent = Intent(this, mainview::class.java)
             startActivity(intent)
