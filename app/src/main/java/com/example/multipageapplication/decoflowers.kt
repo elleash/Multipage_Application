@@ -22,6 +22,8 @@ class decoflowers : AppCompatActivity() {
         dahliasBtn = findViewById(R.id.decorImg3)
         prevBtn = findViewById(R.id.back1)
 
+        // loads flower page on click
+        // added animation to buttons on click
         tulipsBtn.setOnClickListener {
             val intent = Intent(this, tulips::class.java)
             startActivity(intent)
@@ -38,6 +40,7 @@ class decoflowers : AppCompatActivity() {
             dahliasBtn.startAnimation(AnimationUtils.loadAnimation(this, R.anim.zoom_in_two))
         }
 
+        // button to go to previous page
         prevBtn.setOnClickListener {
             val intent = Intent(this, mainview::class.java)
             startActivity(intent)
