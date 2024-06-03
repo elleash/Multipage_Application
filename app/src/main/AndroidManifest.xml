@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultipageApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".information"
+            android:exported="false" />
+        <activity
+            android:name=".bellflower"
+            android:exported="false" />
+        <activity
+            android:name=".snowdrops"
+            android:exported="false" />
+        <activity
+            android:name=".impatiens"
+            android:exported="false" />
+        <activity
+            android:name=".dahlias"
+            android:exported="false" />
+        <activity
+            android:name=".peony"
+            android:exported="false" />
+        <activity
+            android:name=".tulips"
+            android:exported="false" />
+        <activity
+            android:name=".capeprimrose"
+            android:exported="false" />
+        <activity
+            android:name=".oxalis"
+            android:exported="false" />
+        <activity
+            android:name=".amaryllis"
+            android:exported="false" />
+        <activity
+            android:name=".coleusFlower"
+            android:exported="false" />
+        <activity
+            android:name=".goldilocks"
+            android:exported="false" />
+        <activity
+            android:name=".purpleasters"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".mainview"
+            android:exported="false" />
+        <activity
+            android:name=".username"
+            android:exported="false" />
+        <activity
+            android:name=".symbolism"
+            android:exported="false" />
+        <activity
+            android:name=".plantsDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".indoorPrimrose"
+            android:exported="false" />
+        <activity
+            android:name=".indoorOxalis"
+            android:exported="false" />
+        <activity
+            android:name=".indoorAmaryllis"
+            android:exported="false" />
+        <activity
+            android:name=".pottedColeus"
+            android:exported="false" />
+        <activity
+            android:name=".pottedGoldilocks"
+            android:exported="false" />
+        <activity
+            android:name=".pottedAster"
+            android:exported="false" />
+        <activity
+            android:name=".ShadedBellflower"
+            android:exported="false" />
+        <activity
+            android:name=".shadedSnowdrops"
+            android:exported="false" />
+        <activity
+            android:name=".shadedImpatiens"
+            android:exported="false" />
+        <activity
+            android:name=".sunlovingflowers"
+            android:exported="false" />
+        <activity
+            android:name=".shadedflowers"
+            android:exported="false" />
+        <activity
+            android:name=".decoflowers"
+            android:exported="false" />
+        <activity
+            android:name=".indoorflowers"
+            android:exported="false" />
+        <activity
+            android:name=".pottedflowers"
+            android:exported="false" />
+        <activity
+            android:name=".flowerbedFlowers"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

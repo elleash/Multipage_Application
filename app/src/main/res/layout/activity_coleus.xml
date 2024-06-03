@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/coleusName"
+            android:layout_width="187dp"
+            android:layout_height="181dp"
+            android:fontFamily="@font/imbue_med"
+            android:gravity="left"
+            android:text="Potted \nColeus"
+            android:textSize="47dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.153" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="HOW TO PLANT IT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.657" />
+
+        <ImageView
+            android:id="@+id/flowerImg"
+            android:layout_width="252dp"
+            android:layout_height="241dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/coleus_single"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.089" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="ABOUT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.407" />
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="341dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="15dp"
+            app:lineHeight="18sp"
+            android:fontFamily="@font/domine"
+            android:text="Coleus are known for their color variety, from an somewhat neon yellow to a near black pink colors,
+and their combinations. The vibrant colors of this plant makes well for adding color to your space.
+Caleus' do not do well in colder temperatures"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h1"
+            app:layout_constraintTop_toBottomOf="@+id/h1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/plantingText"
+            android:layout_width="344dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:text="When choosing a pot, a larger size would be ideal if you don't frequently water
+your plants whereas a smaller pot would require often watering. The soil must be loose and fertile with a pH between 6.0 and 7.0.
+In regards to light, Coleus do best in morning sun and some afternoon shade. Feed the plant regularly with fertilizers but make sure
+not to over-fertilize. Water the plant regularly to keep the soil moist."
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h2"
+            app:layout_constraintTop_toBottomOf="@+id/h2"
+            app:layout_constraintVertical_bias="0.0"
+            app:lineHeight="18sp" />
+
+        <ImageButton
+            android:id="@+id/symbBtn"
+            android:layout_width="251dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="950dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/symbolismbtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back2"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="-138"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/symbText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="What does it symbolize?"
+            android:textSize="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.297"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

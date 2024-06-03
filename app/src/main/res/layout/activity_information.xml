@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".symbolism"
+    android:background="@drawable/symbolismbg">
+
+    <TextView
+        android:id="@+id/infoHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/imbue_med"
+        android:gravity="center"
+        android:text="What are we?"
+        android:textColor="#38532F"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="292dp"
+        android:layout_height="378dp"
+        android:fontFamily="@font/domine"
+        android:gravity="center"
+        android:text="Druidcraft is an app that encourages you to start your own
+garden! \n\nWe offer you information about different types of flowers and
+their lifestyle as well as teach you how to grow them. \n\nStart your gardeing journey now!"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/infoHeading"
+        app:layout_constraintStart_toStartOf="@+id/infoHeading"
+        app:layout_constraintTop_toBottomOf="@+id/infoHeading"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#38532F"
+        android:fontFamily="@font/domine"
+        android:text="CLOSE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:src="@drawable/flower"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:src="@drawable/flower"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

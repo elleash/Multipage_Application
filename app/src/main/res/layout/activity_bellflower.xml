@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/bellflowerName"
+            android:layout_width="187dp"
+            android:layout_height="181dp"
+            android:fontFamily="@font/imbue_med"
+            android:gravity="left"
+            android:text="Creeping Bellflower"
+            android:textSize="52dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="HOW TO PLANT IT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.684" />
+
+        <ImageView
+            android:id="@+id/flowerImg"
+            android:layout_width="223dp"
+            android:layout_height="264dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bellflower_single"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.06" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="ABOUT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.394" />
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="342dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:text="As the name suggests, bellflowers produces bell-shaped
+blossoms that nods slightly downward and climb up along the stem. Despite its beautiful
+flower, they are classified as invasive species because of its fast spreading
+tubers. If you're planning to plant other flowers, it is advised not to plant creeping
+bellflowers."
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h1"
+            app:layout_constraintTop_toBottomOf="@+id/h1"
+            app:layout_constraintVertical_bias="0.0"
+            app:lineHeight="18sp" />
+
+        <TextView
+            android:id="@+id/plantingText"
+            android:layout_width="344dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:textSize="15sp"
+            android:text="To plant a bellflower, dig a hole slightly larger than
+the root ball and fill the hole with soil. Bellflowers require well-drained soil with
+a neutral pH. Water your plant once a week to after planting to keep it damp.
+Woodland species perform well in part and full shade."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h2"
+            app:layout_constraintTop_toBottomOf="@+id/h2"
+            app:layout_constraintVertical_bias="0.0"
+            app:lineHeight="19sp" />
+
+        <ImageButton
+            android:id="@+id/symbBtn"
+            android:layout_width="251dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="950dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/symbolismbtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back2"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="-138"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/symbText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="What does it symbolize?"
+            android:textSize="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.297"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

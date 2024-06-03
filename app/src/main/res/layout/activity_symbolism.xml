@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".symbolism"
+    android:background="@drawable/symbolismbg">
+
+    <TextView
+        android:id="@+id/symbHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/imbue_med"
+        android:gravity="center"
+        android:text="SYMBOLISM"
+        android:textColor="#38532F"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/symbText"
+        android:layout_width="257dp"
+        android:layout_height="309dp"
+        android:fontFamily="@font/domine"
+        android:gravity="center"
+        android:text=""
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/symbHeading"
+        app:layout_constraintStart_toStartOf="@+id/symbHeading"
+        app:layout_constraintTop_toBottomOf="@+id/symbHeading"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#38532F"
+        android:fontFamily="@font/domine"
+        android:text="CLOSE"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:src="@drawable/flower"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:src="@drawable/flower"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+</androidx.constraintlayout.widget.ConstraintLayout>

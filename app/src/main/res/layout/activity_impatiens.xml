@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/impatiensName"
+            android:layout_width="187dp"
+            android:layout_height="181dp"
+            android:fontFamily="@font/imbue_med"
+            android:gravity="left"
+            android:text="Impatiens"
+            android:textSize="52dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.179" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="HOW TO PLANT IT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <ImageView
+            android:id="@+id/flowerImg"
+            android:layout_width="201dp"
+            android:layout_height="237dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/impatiens_single"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.081" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="ABOUT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.394" />
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="343dp"
+            android:layout_height="133dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:text="Despite being shade flowers, impatiens can brighten up
+your garden with its various colors and tubular shape. Because of their carefree growth habit, impatiens
+are quite easy to grow. Impatiens can be both outdoor and indoor flowers however, be wary as they
+cannot survive the cold."
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h1"
+            app:layout_constraintTop_toBottomOf="@+id/h1"
+            app:layout_constraintVertical_bias="0.0"
+            app:lineHeight="18sp" />
+
+        <TextView
+            android:id="@+id/plantingText"
+            android:layout_width="344dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:textSize="15sp"
+            android:text="When planting impatiens, make sure to have well-drained soil
+that is rich in nutrients and have a 6.0-6.5 pH level. In its growing stage, the flowers
+need at least two inches of water per week. Make sure not to let the soil dry out.
+Impatiens are shade flowers and thus can grow normally under partial or full shade. Too
+much exposure to the sun can cause the leaves to scorch. Impatiens can grow well when
+fed water-soluble fertilizer every two weeks."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h2"
+            app:layout_constraintTop_toBottomOf="@+id/h2"
+            app:layout_constraintVertical_bias="0.0"
+            app:lineHeight="19sp" />
+
+        <ImageButton
+            android:id="@+id/symbBtn"
+            android:layout_width="251dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="950dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/symbolismbtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back2"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="-138"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/symbText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="What does it symbolize?"
+            android:textSize="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.297"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

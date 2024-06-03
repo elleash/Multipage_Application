@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/goldilockName"
+            android:layout_width="187dp"
+            android:layout_height="181dp"
+            android:fontFamily="@font/imbue_med"
+            android:gravity="left"
+            android:text="Goldilocks Rocks"
+            android:textSize="47dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.156"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.133" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="HOW TO PLANT IT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7" />
+
+        <ImageView
+            android:id="@+id/flowerImg"
+            android:layout_width="158dp"
+            android:layout_height="169dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.877"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.11"
+            android:src="@drawable/goldilock_single"/>
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imbue_med"
+            android:text="ABOUT"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.385" />
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="341dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:text="Goldilocks Rocks, more commonly known as bidens, are bright yellow flowers that can
+grow up to 20 inches wide. These flowers are great for people that want a low-maintenance plant as they are
+heat and drought tolerant."
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h1"
+            app:layout_constraintTop_toBottomOf="@+id/h1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/plantingText"
+            android:layout_width="341dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/domine"
+            android:text="For planting a Goldilocks Rocks, the pot should be no less than six inches wide and the soil
+must be rich and well-drained with a pH between 5.5 and 6.3. These flowers should get at least six hours of full sunlight
+and must be watered once a week. They are drought resistant so constant watering is not a need.
+\nFeed the plant with a general-purpose fertilizer monthly."
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/h2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/h2"
+            app:layout_constraintTop_toBottomOf="@+id/h2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/back2"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="-138"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

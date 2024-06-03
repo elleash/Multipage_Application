@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7EDF0"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/userGreet"
+            android:layout_width="448dp"
+            android:layout_height="310dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/rect_1" />
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="-138"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.017"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/decorImg1"
+            android:layout_width="173dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="#D3D3D3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tulips"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.197" />
+
+        <TextView
+            android:id="@+id/decflower1"
+            android:layout_width="113dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Tulips"
+            android:textSize="18sp"
+            android:fontFamily="@font/domine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/decorImg1"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="@+id/decorImg1"
+            app:layout_constraintTop_toBottomOf="@+id/decorImg1"
+            app:layout_constraintVertical_bias="0.001" />
+
+        <ImageButton
+            android:id="@+id/decorImg2"
+            android:layout_width="173dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="#57F1EDE4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/peony"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/decorImg1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/decorImg1"
+            app:layout_constraintTop_toBottomOf="@+id/decorImg1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/decflower2"
+            android:layout_width="113dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Peonies"
+            android:textSize="18sp"
+            android:fontFamily="@font/domine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/decorImg2"
+            app:layout_constraintStart_toStartOf="@+id/decorImg2"
+            app:layout_constraintTop_toBottomOf="@+id/decorImg2"
+            app:layout_constraintVertical_bias="0.003" />
+
+        <TextView
+            android:id="@+id/purposeInfo"
+            android:layout_width="376dp"
+            android:layout_height="196dp"
+            android:fontFamily="@font/imbue_med"
+            android:gravity="center"
+            android:text="Cut flowers are flowers grown for purpose of being a decoration"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.049" />
+
+        <ImageButton
+            android:id="@+id/decorImg3"
+            android:layout_width="173dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dahlia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/decorImg2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/decorImg2"
+            app:layout_constraintTop_toBottomOf="@+id/decorImg2"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <TextView
+            android:id="@+id/decflower3"
+            android:layout_width="113dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="50dp"
+            android:text="Dahlias"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/domine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/decorImg3"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="@+id/decorImg3"
+            app:layout_constraintTop_toBottomOf="@+id/decorImg3"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
