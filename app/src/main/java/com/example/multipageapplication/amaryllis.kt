@@ -23,11 +23,13 @@ class amaryllis : AppCompatActivity() {
         backBtn = findViewById(R.id.back2)
         symbolBtn = findViewById(R.id.symbBtn)
 
+        // intent to load the previous page
         backBtn.setOnClickListener {
             val intent = Intent(this, indoorflowers::class.java)
             startActivity(intent)
         }
 
+        // show popup modal of the flower's symbolism
         symbolBtn.setOnClickListener {
 
             val inflater = getSystemService(LAYOUT_INFLATER_SERVICE) as LayoutInflater
