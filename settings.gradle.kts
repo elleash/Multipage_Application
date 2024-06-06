@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Multipage Application"
+rootProject.name = "Druidcraft"
 include(":app")
  
