@@ -64,6 +64,7 @@ their lifestyle as well as teach you how to grow them. \n\nStart your gardeing j
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.244" />
 
+<!-- added a GIF to the app -->
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="55dp"
         android:layout_height="57dp"

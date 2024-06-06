@@ -37,11 +37,13 @@ class mainview : AppCompatActivity() {
         decoImgBtn = findViewById(R.id.decoImg)
         informBtn = findViewById(R.id.infoBtn)
 
+        // display user's input
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
         val text = sharedPreferences.getString("text", "")
         textView.text = "HELLO,\n$text"
 
-
+        // opens the flower's assigned classification
+        // added animations on click
         shadedImgBtn.setOnClickListener {
             val intent = Intent(this, shadedflowers::class.java)
             startActivity(intent)
@@ -63,6 +65,7 @@ class mainview : AppCompatActivity() {
             decoImgBtn.startAnimation(AnimationUtils.loadAnimation(this, R.anim.zoom_in_two))
         }
 
+        // button to show waht the app is about
         informBtn.setOnClickListener {
 
             val inflater = getSystemService(LAYOUT_INFLATER_SERVICE) as LayoutInflater
@@ -80,6 +83,7 @@ class mainview : AppCompatActivity() {
                 instructWindow.dismiss()
             }
         }
+         // added animation to the button
         informBtn.startAnimation(AnimationUtils.loadAnimation(this, R.anim.bounce))
     }
 

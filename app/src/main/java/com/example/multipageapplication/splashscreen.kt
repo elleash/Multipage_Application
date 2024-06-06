@@ -11,6 +11,7 @@ import android.widget.TextView
 
 class splashscreen : AppCompatActivity() {
 
+    // splash screen duration
     private val SPLASH_TIME_OUT: Long = 3000
     private lateinit var textAnim: TextView
 
@@ -18,6 +19,7 @@ class splashscreen : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splashscreen)
+        // added splash screen to app
         android.os.Handler().postDelayed({
             startActivity(Intent(this, MainActivity::class.java))
             finish()
@@ -25,6 +27,7 @@ class splashscreen : AppCompatActivity() {
 
         textAnim = findViewById(R.id.appName)
 
+        // added animation to app name
         val animation = AnimationUtils.loadAnimation(this, R.anim.zoom_in)
         textAnim.startAnimation(animation)
     }
